@@ -3,7 +3,6 @@ const mongoose = require('mongoose')
 
 module.exports = () => {
     const connectionParams = {
-        dbName: "ratrifood",
         useNewUrlParser: true,
         useUnifiedTopology: true,
     }
