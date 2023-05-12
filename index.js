@@ -28,8 +28,8 @@ app.use("/public", express.static(path.join(__dirname, "public")));
 
 //Routes
 
-app.use("/api/users", userRoutes)
-app.use("/api/auth", authRoutes)
+app.use("/users", userRoutes)
+app.use("/auth", authRoutes)
 
 
 
